@@ -27,10 +27,13 @@ class Cms_model extends Base_model
 	{
 		parent::__construct();
 
-		$this->_prefix = $this->config->item('backendpro_table_prefix');
-		$this->_TABLES = array(
-			'Users' 		=> $this->_prefix . 'users',
-            'UserProfiles' 	=> $this->_prefix . 'user_profiles'
+		$this->_prefix 	= $this->config->item('backendpro_table_prefix');
+		$mod_prefix		= $this->config->item('mod_table_prefix');
+		$this->_TABLES 	= array(
+			'ContentArticles'	=> $mod_prefix . 'articles',
+			'ContentCategories' => $mod_prefix . 'categories',
+			'Users' 			=> $this->_prefix . 'users',
+            'UserProfiles' 		=> $this->_prefix . 'user_profiles'
         );
 
 		log_message('debug','BackEndManager : Cms_model class loaded');

@@ -25,6 +25,7 @@
 /* Page Titles */
 $lang['bem_cms'] = 'Content Management';
 $lang['bem_cms_dashboard'] = 'Dashboard';
+$lang['bem_cms_install_module'] = 'Install CMS Module';
 
 
 /* End of file userlib_lang.php */
