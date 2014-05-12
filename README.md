@@ -5,7 +5,10 @@ A content management module for [BackEndManager](https://github.com/reine/BackEn
 
 # Features
 
-Content to follow.
+Herewith is a list of features for this module:
+
+* Install Wizard
+* *Other features to be added as needed*
 
 # Setup, Installation & Configuration
 
@@ -20,6 +23,11 @@ Using git, go to the root of the BackEndManager project directory and clone this
 	git submodule add https://github.com/reine/bem-cms.git apps/default/modules/cms
 
 --- *More content to follow* ---
+
+## Screenshots
+
+*Install wizard to initialize module on first use.*
+![screenshot - install wizard](/files/screenshot-install-mod.png?raw=true)
 
 # Support
 
