@@ -19,8 +19,13 @@ A working copy of BackEndManager is required as this is NOT a standalone app.
 Using git, go to the root of the BackEndManager project directory and clone this repository as a submodule.
 
 	cd BackEndManager
-
 	git submodule add https://github.com/reine/bem-cms.git apps/default/modules/cms
+
+If you do not want to use git, you can [download a copy](https://github.com/reine/bem-cms/archive/master.zip) of the latest release in ZIP format. Create a **cms** subdirectory inside **apps/default/modules** directory and extract the archive from there.
+
+## Installation Instructions
+
+Login to the control panel and navigate to **System -> Access Control -> Resources** and add the **Content Management** resource under **Control Panel**. Next, go back to the main admin dashboard and click on the **Content** icon - it will redirect you to the CMS module's dashboard. Click on the **Install CMS Module** button to begin the installation process.
 
 --- *More content to follow* ---
 
@@ -33,7 +38,7 @@ Using git, go to the root of the BackEndManager project directory and clone this
 
 This is a work in progress - use at your own risk.
 
-If you found any bugs, please report them at the [Issues](https://github.com/reine/bem-cms/issues) section of the project repository. Do note that I may not always reply to them as needed because I also work on my client projects.
+If you find any bugs, please report them at the [Issues](https://github.com/reine/bem-cms/issues) section of the project repository. Do note that I may not always reply to them as needed because I also work on my client projects.
 
 # Copyright & License
 
