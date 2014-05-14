@@ -7,7 +7,9 @@ A content management module for [BackEndManager](https://github.com/reine/BackEn
 
 Herewith is a list of features for this module:
 
-* Install Wizard
+* **Install Wizard**
+	* Automatic update of the ACL resource table to include 'Content Management' in the database
+	* Automatic creation of content-related tables in the database
 * *Other features to be added as needed*
 
 # Setup, Installation & Configuration
@@ -25,7 +27,7 @@ If you do not want to use git, you can [download a copy](https://github.com/rein
 
 ## Installation Instructions
 
-Login to the control panel and navigate to **System -> Access Control -> Resources** and add the **Content Management** resource under **Control Panel**. Next, go back to the main admin dashboard and click on the **Content** icon - it will redirect you to the CMS module's dashboard. Click on the **Install CMS Module** button to begin the installation process.
+Login to the control panel and in the main admin dashboard, click on the **Content** icon - it will redirect you to the CMS module's dashboard. Click on the **Install CMS Module** button to begin the installation process.
 
 --- *More content to follow* ---
 

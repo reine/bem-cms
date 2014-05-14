@@ -9,6 +9,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
+# Update of table be_acl_resources
+# ------------------------------------------------------------
+
+INSERT INTO `be_acl_resources` (`lft`, `rgt`, `name`, `link`) VALUES (4, 5, 'Content Management', NULL);
+
+
+
 # Dump of table bem_cms_articles
 # ------------------------------------------------------------
 
